@@ -16,7 +16,7 @@ In one small project I have learned the contextapi
 ```js
 import { createContext, useContext } from "react";
 
-export const CounterContext = createContext({count: null});// its lisk a props
+export const CounterContext = createContext({count: null});// its like a props ---- but it is object
 
 export const CounterProvider = CounterContext.Provider;
 
